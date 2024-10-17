@@ -3,8 +3,12 @@
     margin-top: 10px;
     width: 1200px;
     height: 210px;
-    display:grid;
+    display: grid;
     justify-content: center;
+}
+
+.navbanner {
+    display: block;
 }
 
 .navbar {
@@ -44,22 +48,23 @@ h1 {
     height: 60px;
     margin: 10px 10px 0px 10px;
 }
+
 .banner {
-    background-color:orange;
+    display: flex;
+    background-color: orange;
     width: 1180px;
     height: 100px;
-   
+    margin-top: 10px;
 }
 
 .banner1 {
     background-color: yellow;
-    display: flex;
     width: 1160px;
     height: 80px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px;
 }
 
-.main{
+.main {
     background-color: black;
     display: flex;
     margin-top: 10px;
@@ -77,7 +82,7 @@ h1 {
 .articles {
     display: flex;
     flex-wrap: wrap;
- 
+
 }
 
 .article {
@@ -88,12 +93,12 @@ h1 {
 }
 
 .navigation {
-    background-color:aqua;
+    background-color: aqua;
     display: flex;
     width: 950px;
     height: 60px;
     margin: 10px 0px 0px 10px;
-   
+
 }
 
 .public {
@@ -111,7 +116,8 @@ h1 {
     height: 60px;
     margin: 10px 0px 0px 10px;
 }
-.footer{
+
+.footer {
     background-color: black;
     display: flex;
     margin-top: 10px;
@@ -126,3 +132,198 @@ h1 {
     margin: 10px 0px 0px 10px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .head {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 97.5%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        ;
+    }
+
+    .logo,
+    .nav,
+    .social {
+        width: 97.5%;
+        height: auto;
+        margin: 10px 20px 0px 10px;
+        ;
+    }
+
+    .social {
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        width: 97.5%;
+        height: auto;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .banner1 {
+        width: 97.5%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        width: 97.5%;
+        height: auto;
+    }
+
+    .articles {
+        width: 100%;
+        height: auto;
+    }
+
+    .article {
+        width: 48%;
+        height: auto;
+    }
+
+    .navigation {
+        width: 97.5%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .public {
+        width: 97.5%;
+        height: auto;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .announc {
+        width: 97.5%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .pie {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768.98px) {
+    .head {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 96%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        ;
+    }
+
+    .logo,
+    .nav,
+    .social {
+        width: 96%;
+        height: auto;
+    }
+
+    .social {
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        width: 96%;
+        height: auto;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .banner1 {
+        width: 97.5%;
+        height: auto;
+    }
+
+   .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        width: 96%;
+        height: auto;
+    }
+
+    .article {
+        width: 96%;
+        height: auto;
+    }
+
+    .navigation {
+        width: 96%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .public {
+        width: 96%;
+        height: auto;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .announc {
+        width: 96%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .pie {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}

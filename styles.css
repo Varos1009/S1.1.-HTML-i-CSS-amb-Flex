@@ -33,13 +33,32 @@ h1 {
     width: 200px;
     height: 60px;
     margin: 10px 0px 0px 10px;
+    transition: all 0.5s ease;
 }
+
+.logo:hover {
+    width: 220px;
+    height: 70px;
+    background-color: rgb(253, 28, 28);
+    margin: auto;
+    margin-left: 10px;
+}
+
 
 .nav {
     background-color: rgba(255, 0, 0, 0.498);
     width: 750px;
     height: 60px;
     margin: 10px 0px 0px 10px;
+    transition: all 0.5s ease;
+}
+
+.nav:hover {
+    width: 780px;
+    height: 70px;
+    background-color: rgb(253, 28, 28);
+    margin: auto;
+    margin-left: 10px;
 }
 
 .social {
@@ -47,6 +66,15 @@ h1 {
     width: 200px;
     height: 60px;
     margin: 10px 10px 0px 10px;
+    transition: all 0.5s ease;
+}
+
+.social:hover {
+    width: 220px;
+    height: 70px;
+    background-color: rgb(253, 28, 28);
+    margin: auto;
+    margin: 5px 10px 5px 10px;
 }
 
 .banner {
@@ -286,7 +314,7 @@ h1 {
         height: auto;
     }
 
-   .main {
+    .main {
         width: 100%;
         height: auto;
         display: flex;

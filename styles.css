@@ -159,10 +159,10 @@ h1 {
     .logo,
     .nav,
     .social {
+        background-color: skyblue;
         width: 97.5%;
         height: auto;
         margin: 10px 20px 0px 10px;
-        ;
     }
 
     .social {
@@ -176,6 +176,7 @@ h1 {
     }
 
     .banner1 {
+        background-color: tomato;
         width: 97.5%;
         height: auto;
         margin: 10px;
@@ -199,11 +200,13 @@ h1 {
     }
 
     .article {
+        background-color: rgb(78, 7, 230);
         width: 48%;
         height: auto;
     }
 
     .navigation {
+        background-color: springgreen;
         width: 97.5%;
         height: auto;
         margin-bottom: 10px;
@@ -216,6 +219,7 @@ h1 {
     }
 
     .announc {
+        background-color: yellow;
         width: 97.5%;
         height: auto;
         margin: 10px;
@@ -228,6 +232,7 @@ h1 {
     }
 
     .pie {
+        background-color: teal;
         width: 100%;
         height: auto;
         margin: 10px;
@@ -255,12 +260,12 @@ h1 {
         display: flex;
         flex-direction: column;
         margin: 10px;
-        ;
     }
 
     .logo,
     .nav,
     .social {
+        background-color: rgb(17, 202, 17);
         width: 96%;
         height: auto;
     }
@@ -276,6 +281,7 @@ h1 {
     }
 
     .banner1 {
+        background-color: rosybrown;
         width: 97.5%;
         height: auto;
     }
@@ -293,11 +299,13 @@ h1 {
     }
 
     .article {
+        background-color: rgb(202, 17, 82);
         width: 96%;
         height: auto;
     }
 
     .navigation {
+        background-color: rgb(191, 223, 32);
         width: 96%;
         height: auto;
         margin-bottom: 10px;
@@ -310,6 +318,7 @@ h1 {
     }
 
     .announc {
+        background-color: aquamarine;
         width: 96%;
         height: auto;
         margin: 10px;
@@ -322,6 +331,7 @@ h1 {
     }
 
     .pie {
+        background-color: blueviolet;
         width: 100%;
         height: auto;
         margin: 10px;

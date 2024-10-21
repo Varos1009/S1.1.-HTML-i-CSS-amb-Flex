@@ -33,15 +33,12 @@ h1 {
     width: 200px;
     height: 60px;
     margin: 10px 0px 0px 10px;
-    transition: all 0.5s ease;
+    transition: transform 0.5s ease, background-color 0.5s ease;
 }
 
 .logo:hover {
-    width: 220px;
-    height: 70px;
     background-color: rgb(253, 28, 28);
-    margin: auto;
-    margin-left: 10px;
+    transform: scale(1.1);
 }
 
 
@@ -53,13 +50,6 @@ h1 {
     transition: all 0.5s ease;
 }
 
-.nav:hover {
-    width: 780px;
-    height: 70px;
-    background-color: rgb(253, 28, 28);
-    margin: auto;
-    margin-left: 10px;
-}
 
 .social {
     background-color: rgba(255, 0, 0, 0.498);
@@ -69,13 +59,6 @@ h1 {
     transition: all 0.5s ease;
 }
 
-.social:hover {
-    width: 220px;
-    height: 70px;
-    background-color: rgb(253, 28, 28);
-    margin: auto;
-    margin: 5px 10px 5px 10px;
-}
 
 .banner {
     display: flex;
@@ -160,7 +143,13 @@ h1 {
     margin: 10px 0px 0px 10px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 991.98px) {
+    
+    body{
+        background-color: blueviolet;
+    }
+
+
     .head {
         width: 100%;
         height: auto;
@@ -187,7 +176,6 @@ h1 {
     .logo,
     .nav,
     .social {
-        background-color: skyblue;
         width: 97.5%;
         height: auto;
         margin: 10px 20px 0px 10px;
@@ -204,7 +192,6 @@ h1 {
     }
 
     .banner1 {
-        background-color: tomato;
         width: 97.5%;
         height: auto;
         margin: 10px;
@@ -228,13 +215,11 @@ h1 {
     }
 
     .article {
-        background-color: rgb(78, 7, 230);
         width: 48%;
         height: auto;
     }
 
     .navigation {
-        background-color: springgreen;
         width: 97.5%;
         height: auto;
         margin-bottom: 10px;
@@ -247,7 +232,6 @@ h1 {
     }
 
     .announc {
-        background-color: yellow;
         width: 97.5%;
         height: auto;
         margin: 10px;
@@ -260,14 +244,19 @@ h1 {
     }
 
     .pie {
-        background-color: teal;
         width: 100%;
         height: auto;
         margin: 10px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 768.98px) {
+@media (max-width: 575.98px) {
+
+    body{
+        background-color: coral;
+    }
+
+
     .head {
         width: 100%;
         height: auto;
@@ -283,7 +272,7 @@ h1 {
     }
 
     .navbar {
-        width: 96%;
+        width: 93%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -293,8 +282,7 @@ h1 {
     .logo,
     .nav,
     .social {
-        background-color: rgb(17, 202, 17);
-        width: 96%;
+        width: 93%;
         height: auto;
     }
 
@@ -303,14 +291,13 @@ h1 {
     }
 
     .banner {
-        width: 96%;
+        width: 93%;
         height: auto;
         margin: 0px 10px 10px 10px;
     }
 
     .banner1 {
-        background-color: rosybrown;
-        width: 97.5%;
+        width: 94.5%;
         height: auto;
     }
 
@@ -322,32 +309,29 @@ h1 {
     }
 
     .info {
-        width: 96%;
+        width: 93%;
         height: auto;
     }
 
     .article {
-        background-color: rgb(202, 17, 82);
-        width: 96%;
+        width: 93%;
         height: auto;
     }
 
     .navigation {
-        background-color: rgb(191, 223, 32);
-        width: 96%;
+        width: 93%;
         height: auto;
         margin-bottom: 10px;
     }
 
     .public {
-        width: 96%;
+        width: 93%;
         height: auto;
         margin: 0px 0px 10px 10px;
     }
 
     .announc {
-        background-color: aquamarine;
-        width: 96%;
+        width: 93%;
         height: auto;
         margin: 10px;
     }
@@ -359,7 +343,6 @@ h1 {
     }
 
     .pie {
-        background-color: blueviolet;
         width: 100%;
         height: auto;
         margin: 10px;

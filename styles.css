@@ -1,184 +1,179 @@
-.head {
-    background-color: black;
-    margin-top: 10px;
-    width: 1200px;
-    height: 210px;
-    display: grid;
-    justify-content: center;
-}
-
-.navbanner {
-    display: block;
-}
-
-.navbar {
-    background-color: gray;
-    display: flex;
-    width: 1180px;
-    height: 80px;
-    margin-top: 10px;
-}
-
-p {
-    margin-left: 10px;
-    padding-top: 5px;
-}
-
-h1 {
-    margin-left: 10px;
-}
-
-.logo {
-    background-color: rgba(255, 0, 0, 0.498);
-    width: 200px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-}
-
-.logo:hover {
-    background-color: rgb(253, 28, 28);
-    transform: scale(1.1);
-}
-
-
-.nav {
-    background-color: rgba(255, 0, 0, 0.498);
-    width: 750px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-    transition: all 0.5s ease;
-}
-
-
-.social {
-    background-color: rgba(255, 0, 0, 0.498);
-    width: 200px;
-    height: 60px;
-    margin: 10px 10px 0px 10px;
-    transition: all 0.5s ease;
-}
-
-
-.banner {
-    display: flex;
-    background-color: orange;
-    width: 1180px;
-    height: 100px;
-    margin-top: 10px;
-}
-
-.banner1 {
-    background-color: yellow;
-    width: 1160px;
-    height: 80px;
-    margin: 10px;
-}
-
-.main {
-    background-color: black;
-    display: flex;
-    margin-top: 10px;
-    width: 1200px;
-    height: 240px;
-}
-
-.info {
-    background-color: gray;
-    width: 970px;
-    height: 220px;
-    margin: 10px 0px 10px 10px;
-}
-
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.article {
-    background-color: rgb(58, 58, 142);
-    width: 470px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-}
-
-.navigation {
-    background-color: aqua;
-    display: flex;
-    width: 950px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-
-}
-
-.public {
-    background-color: rgb(241, 95, 95);
-    width: 200px;
-    height: 220px;
-    margin: 10px 0px 10px 10px;
-}
-
-.announc {
-    background-color: yellow;
-    display: flex;
-    flex-wrap: wrap;
-    width: 180px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-}
-
-.footer {
-    background-color: black;
-    display: flex;
-    margin-top: 10px;
-    width: 1200px;
-    height: 80px;
-}
-
-.pie {
-    background-color: rgb(229, 229, 137);
-    width: 1180px;
-    height: 60px;
-    margin: 10px 0px 0px 10px;
-}
-
-@media (max-width: 991.98px) {
-    
-    body{
-        background-color: blueviolet;
-    }
-
-
-    .head {
+@media (max-width: 1200px) {
+    .headest {
+        background-color: black;
+        margin-top: 10px;
         width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
+        height: 210px;
     }
 
     .navbanner {
-        width: 100%;
-        height: auto;
         display: flex;
         flex-direction: column;
+        margin: 0px 10px;
     }
 
     .navbar {
-        width: 97.5%;
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    .logo {
+        background-color: rgba(255, 0, 0, 0.498);
+        width: 20%;
+        height: 60px;
+        margin: 10px 0px 0px 10px;
+        transition: transform 0.5s ease, background-color 0.5s ease;
+    }
+
+    .logo:hover {
+        background-color: rgb(253, 28, 28);
+        transform: scale(1.1);
+    }
+
+
+    .nav {
+        background-color: rgba(255, 0, 0, 0.498);
+        width: 60%;
+        height: 60px;
+        margin: 10px 0px 0px 10px;
+        transition: all 0.5s ease;
+    }
+
+
+    .social {
+        background-color: rgba(255, 0, 0, 0.498);
+        width: 20%;
+        height: 60px;
+        margin: 10px 10px 0px 10px;
+        transition: all 0.5s ease;
+    }
+
+
+    .banner {
+        display: flex;
+        background-color: orange;
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .banner1 {
+        background-color: yellow;
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+    }
+
+    .main {
+        background-color: black;
+        display: flex;
+        margin-top: 10px;
+        width: 100%;
         height: auto;
+    }
+
+    .total {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .info {
         display: flex;
         flex-direction: column;
+        background-color: gray;
+        width: 80%;
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .article {
+        background-color: rgb(58, 58, 142);
+        width: calc(50% - 15px);
+        height: 60px;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .navigation {
+        background-color: aqua;
+        display: flex;
+        height: 60px;
         margin: 10px;
-        ;
+
+    }
+
+    .public {
+        background-color: rgb(241, 95, 95);
+        width: 20%;
+    }
+
+    .announc {
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .footer {
+        background-color: black;
+        display: flex;
+        margin-top: 10px;
+        height: 80px;
+    }
+
+    .pie {
+        background-color: rgb(229, 229, 137);
+        width: 100%;
+        height: 60px;
+        margin: 10px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+    body {
+        background-color: blueviolet;
+    }
+
+    .headest {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbanner {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
     }
 
     .logo,
     .nav,
     .social {
-        width: 97.5%;
+        width: 100%;
         height: auto;
-        margin: 10px 20px 0px 10px;
+        margin: 10px 10px 0px 10px;
     }
 
     .social {
@@ -186,165 +181,80 @@ h1 {
     }
 
     .banner {
-        width: 97.5%;
         height: auto;
-        margin: 0px 0px 10px 10px;
+        margin-bottom: 10px;
     }
 
     .banner1 {
-        width: 97.5%;
         height: auto;
         margin: 10px;
     }
 
     .main {
-        width: 100%;
         height: auto;
-        display: flex;
+        flex-direction: column;
+    }
+
+    .total {
+        width: auto;
+        height: auto;
         flex-direction: column;
     }
 
     .info {
-        width: 97.5%;
+        width: 100%;
         height: auto;
     }
 
     .articles {
-        width: 100%;
         height: auto;
     }
 
     .article {
-        width: 48%;
         height: auto;
     }
 
     .navigation {
-        width: 97.5%;
+        height: auto;
+    }
+
+    .public {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .announc {
+        height: auto;
+    }
+
+    .announc:nth-child(2) {
         height: auto;
         margin-bottom: 10px;
     }
 
-    .public {
-        width: 97.5%;
-        height: auto;
-        margin: 0px 0px 10px 10px;
-    }
-
-    .announc {
-        width: 97.5%;
-        height: auto;
-        margin: 10px;
-    }
-
     .footer {
-        display: flex;
-        width: 100%;
         height: auto;
     }
 
     .pie {
-        width: 100%;
         height: auto;
-        margin: 10px;
     }
 }
 
 @media (max-width: 575.98px) {
 
-    body{
+    body {
         background-color: coral;
     }
 
 
-    .head {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navbanner {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navbar {
-        width: 93%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        margin: 10px;
-    }
-
-    .logo,
-    .nav,
-    .social {
-        width: 93%;
-        height: auto;
-    }
-
-    .social {
-        margin-bottom: 10px;
-    }
-
-    .banner {
-        width: 93%;
-        height: auto;
-        margin: 0px 10px 10px 10px;
-    }
-
-    .banner1 {
-        width: 94.5%;
-        height: auto;
-    }
-
-    .main {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .info {
-        width: 93%;
-        height: auto;
-    }
 
     .article {
-        width: 93%;
-        height: auto;
-    }
-
-    .navigation {
-        width: 93%;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .public {
-        width: 93%;
-        height: auto;
-        margin: 0px 0px 10px 10px;
-    }
-
-    .announc {
-        width: 93%;
-        height: auto;
-        margin: 10px;
-    }
-
-    .footer {
-        display: flex;
         width: 100%;
-        height: auto;
+        margin-right: 10px;
     }
 
-    .pie {
-        width: 100%;
-        height: auto;
-        margin: 10px;
-    }
 }

@@ -1,9 +1,10 @@
- .headest {
-     background-color: black;
-     margin-top: 10px;
-     width: 100%;
-     height: 210px;
- }
+@media (max-width: 1200px) {
+    .headest {
+        background-color: black;
+        margin-top: 10px;
+        width: 100%;
+        height: 210px;
+    }
 
  .navbanner {
      display: flex;
@@ -138,13 +139,13 @@
      height: 80px;
  }
 
- .pie {
-     background-color: rgb(229, 229, 137);
-     width: 100%;
-     height: 60px;
-     margin: 10px;
- }
-
+    .pie {
+        background-color: rgb(229, 229, 137);
+        width: 100%;
+        height: 60px;
+        margin: 10px;
+    }
+}
 
 
  @media (max-width: 991.98px) {
@@ -256,4 +257,4 @@
          margin-right: 10px;
      }
 
- }
+}
